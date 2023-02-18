@@ -60,9 +60,11 @@
     background-color: var(--color);
     border-radius: 8px;
     border: 0;
-    margin-bottom: 50px;
     font-weight: 600;
     font-size: 20px;
+}
+.section-1-main > button {
+    margin-bottom: 50px;
 }
 .section-1-main > img {
     width: 100%;
@@ -129,6 +131,7 @@
     font-weight: 600;
     font-size: 20px;
     padding-bottom: 20px;
+    color: var(--dark-1);
 }
 .item > p {
     padding-bottom: 0px;
@@ -208,4 +211,43 @@
 }
 .sponsors > img:hover {
     filter: grayscale(0%);
+}
+
+/* Section-6: Contact Us */
+.section-6 {
+    padding: 50px 240px;
+    background-color: var(--background-color);
+}
+.section-6 > h1 {
+    text-align: center;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.form > input,
+textarea {
+    padding: 30px;
+    border: 0px;
+    border-radius: 8px;
+}
+.form > .btn {
+    padding: 0px;
+}
+
+/* Section-7: Footer */
+.footer {
+    padding: 50px 240px;
+}
+.footer > p {
+    height: 100px;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: var(--dark-2);
+    background-color: var(--background-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
