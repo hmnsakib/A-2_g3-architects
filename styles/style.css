@@ -1,0 +1,65 @@
+/* ----- Common Styles ----- */
+* {
+    margin: 0;
+    max-width: 1980px;
+}
+:root {
+    --dark-1: #131313;
+    --dark-2: #424242;
+    --dark-3: #727272;
+    --color: #ff900e;
+    --background-color: rgba(255, 144, 14, 0.1);
+}
+
+/* ----- Section 1- Brand New Group of Architects ----- */
+.section-1 {
+    background: var(--background-color);
+    padding: 50px 240px;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-left {
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--dark-1);
+}
+.nav-right {
+    display: flex;
+    font-weight: 500;
+    font-size: 18px;
+    align-items: center;
+}
+.nav-right > ul > a {
+    text-decoration: none;
+    color: var(--dark-2);
+}
+.section-1-main {
+    text-align: center;
+}
+.section-1-description > h1 {
+    font-weight: 700;
+    font-size: 65px;
+    padding: 30px 0px;
+    color: var(--dark-1);
+}
+.section-1-description > p {
+    font-size: 18pxpx;
+    padding-bottom: 30px;
+    color: var(--dark-3);
+}
+.btn {
+    width: 180px;
+    height: 65px;
+    color: white;
+    background-color: var(--color);
+    border-radius: 8px;
+    border: 0;
+    margin-bottom: 50px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.section-1-main > img {
+    width: 100%;
+}
