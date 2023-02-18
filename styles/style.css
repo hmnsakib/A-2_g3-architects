@@ -1,4 +1,4 @@
-/* ----- Common Styles ----- */
+/* Common Styles */
 * {
     margin: 0;
     max-width: 1980px;
@@ -8,11 +8,13 @@
     --dark-1: #131313;
     --dark-2: #424242;
     --dark-3: #727272;
+    --dark-7: #f3f3f3;
+
     --color: #ff900e;
     --background-color: rgba(255, 144, 14, 0.1);
 }
 
-/* ----- Section-1: Brand New Group of Architects ----- */
+/* Section-1: Brand New Group of Architects */
 
 .section-1 {
     background: var(--background-color);
@@ -66,7 +68,7 @@
     width: 100%;
 }
 
-/* ----- Section-2: Quick list of Our Features ----- */
+/* Section-2: Quick list of Our Features */
 .section-2 {
     display: flex;
     justify-content: space-evenly;
@@ -100,4 +102,57 @@
 }
 .span-3 {
     color: var(--color);
+}
+
+/* Section-2: Features you will love & enjoy */
+.section-3 {
+    padding: 50px 240px;
+    position: relative;
+}
+.section-3-description > h1 {
+    border-left: 8px solid var(--color);
+    padding: 0px 0px 0px 20px;
+    margin: 30px 0px;
+}
+.section-3-main {
+    display: flex;
+    justify-content: space-between;
+}
+.item {
+    padding: 30px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 5px 5px var(--dark-7);
+}
+.item-title {
+    font-weight: 600;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.item > p {
+    padding-bottom: 0px;
+}
+.experience {
+    width: 342px;
+    height: 200px;
+    background-color: var(--color);
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    left: 819px;
+    top: 882px;
+}
+.experience > h1 {
+    font-weight: 700;
+    font-size: 65px;
+    color: white;
+}
+.experience > p {
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
 }
