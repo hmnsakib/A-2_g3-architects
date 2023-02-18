@@ -192,3 +192,20 @@
 .fact > p {
     padding: 0px;
 }
+
+/* Section-5: Our Sponspors */
+.section-5 {
+    padding: 50px 240px;
+    text-align: center;
+}
+.sponsors {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.sponsors > img {
+    filter: grayscale(100%);
+}
+.sponsors > img:hover {
+    filter: grayscale(0%);
+}
