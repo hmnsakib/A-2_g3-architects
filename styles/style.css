@@ -2,6 +2,7 @@
 * {
     margin: 0;
     max-width: 1980px;
+    font-family: "Work Sans", sans-serif;
 }
 :root {
     --dark-1: #131313;
@@ -11,7 +12,8 @@
     --background-color: rgba(255, 144, 14, 0.1);
 }
 
-/* ----- Section 1- Brand New Group of Architects ----- */
+/* ----- Section-1: Brand New Group of Architects ----- */
+
 .section-1 {
     background: var(--background-color);
     padding: 50px 240px;
@@ -21,7 +23,7 @@
     justify-content: space-between;
 }
 .nav-left {
-    font-weight: 700;
+    font-weight: 500;
     font-size: 45px;
     color: var(--dark-1);
 }
@@ -44,7 +46,7 @@
     padding: 30px 0px;
     color: var(--dark-1);
 }
-.section-1-description > p {
+.description {
     font-size: 18pxpx;
     padding-bottom: 30px;
     color: var(--dark-3);
@@ -62,4 +64,40 @@
 }
 .section-1-main > img {
     width: 100%;
+}
+
+/* ----- Section-2: Quick list of Our Features ----- */
+.section-2 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 240px;
+    align-items: center;
+}
+.section-2-image {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+.section-2-image > img {
+    width: 342px;
+    height: 342px;
+    border-radius: 8px;
+}
+.section-2-description {
+    text-align: left;
+}
+.title {
+    font-weight: 700;
+    font-size: 45px;
+    padding: 30px 0px;
+    color: var(--dark-1);
+}
+.span-1 {
+    color: var(--dark-3);
+}
+.span-2 {
+    color: var(--dark-1);
+}
+.span-3 {
+    color: var(--color);
 }
