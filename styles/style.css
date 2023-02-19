@@ -254,7 +254,7 @@ textarea {
 .section-1 {
     display: none;
 }
-.section-3 {
+.section-2 {
     display: none;
 }
 .section-4 {
@@ -304,5 +304,27 @@ textarea {
     }
     .title {
         font-size: 35px;
+    }
+    /* Section-3 */
+    .section-3 {
+        padding: 30px;
+    }
+    .section-3-main {
+        flex-direction: column;
+    }
+    .section-3-main > img {
+        margin-top: 50px;
+    }
+    .experience {
+        width: 200px;
+        height: 150px;
+        left: 25%;
+        top: 70%;
+    }
+    .experience > h1 {
+        font-size: 35px;
+    }
+    .experience > p {
+        font-size: 20px;
     }
 }
