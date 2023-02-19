@@ -15,7 +15,6 @@
 }
 
 /* Section-1: Brand New Group of Architects */
-
 .section-1 {
     background: var(--background-color);
     padding: 50px 240px;
@@ -250,4 +249,47 @@ textarea {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.section-2 {
+    display: none;
+}
+.section-3 {
+    display: none;
+}
+.section-4 {
+    display: none;
+}
+.section-5 {
+    display: none;
+}
+.section-6 {
+    display: none;
+}
+.footer {
+    display: none;
+}
+
+/* Mobile responsive style */
+@media only screen and (max-width: 576px) {
+    /* Section-1 */
+    .section-1 {
+        padding: 30px;
+    }
+    .nav {
+        flex-direction: column;
+    }
+    .nav-left {
+        font-size: 30px;
+        text-align: center;
+    }
+    .nav-right {
+        flex-direction: column;
+    }
+    .section-1-description > h1 {
+        font-size: 35px;
+    }
+    .section-1-main > button {
+        margin-bottom: 30px;
+    }
 }
