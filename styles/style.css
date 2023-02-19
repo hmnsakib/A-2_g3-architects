@@ -263,10 +263,10 @@ textarea {
 .section-4 {
     display: none;
 }
-.section-6 {
+.section-5 {
     display: none;
 }
-.footer {
+.section-6 {
     display: none;
 }
 
@@ -354,5 +354,15 @@ textarea {
     }
     .sponsors > img {
         width: 130px;
+    }
+
+    /* Section-6 */
+    .section-6 {
+        padding: 30px;
+    }
+
+    /* Section-7 */
+    .footer {
+        padding: 30px;
     }
 }
