@@ -251,25 +251,6 @@ textarea {
     justify-content: center;
 }
 
-.section-1 {
-    display: none;
-}
-.section-2 {
-    display: none;
-}
-.section-3 {
-    display: none;
-}
-.section-4 {
-    display: none;
-}
-.section-5 {
-    display: none;
-}
-.section-6 {
-    display: none;
-}
-
 /* Mobile responsive style */
 @media only screen and (max-width: 576px) {
     /* Section-1 */
