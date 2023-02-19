@@ -260,7 +260,7 @@ textarea {
 .section-3 {
     display: none;
 }
-.section-5 {
+.section-4 {
     display: none;
 }
 .section-6 {
@@ -305,6 +305,7 @@ textarea {
     .title {
         font-size: 35px;
     }
+
     /* Section-3 */
     .section-3 {
         padding: 30px;
@@ -327,6 +328,7 @@ textarea {
     .experience > p {
         font-size: 20px;
     }
+
     /* Section-4 */
     .section-4 {
         padding: 30px;
@@ -340,5 +342,17 @@ textarea {
         width: 150px;
         height: 150px;
         margin-top: 0px;
+    }
+
+    /* Section-5 */
+    .section-5 {
+        padding: 30px;
+    }
+    .sponsors {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .sponsors > img {
+        width: 130px;
     }
 }
