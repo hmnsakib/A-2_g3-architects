@@ -251,7 +251,7 @@ textarea {
     justify-content: center;
 }
 
-.section-2 {
+.section-1 {
     display: none;
 }
 .section-3 {
@@ -291,5 +291,18 @@ textarea {
     }
     .section-1-main > button {
         margin-bottom: 30px;
+    }
+
+    /* Section-2 */
+    .section-2 {
+        flex-direction: column;
+        padding: 30px;
+    }
+    .section-2-image > img {
+        width: 150px;
+        height: 150px;
+    }
+    .title {
+        font-size: 35px;
     }
 }
