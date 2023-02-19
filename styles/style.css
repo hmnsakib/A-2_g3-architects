@@ -257,7 +257,7 @@ textarea {
 .section-2 {
     display: none;
 }
-.section-4 {
+.section-3 {
     display: none;
 }
 .section-5 {
@@ -326,5 +326,19 @@ textarea {
     }
     .experience > p {
         font-size: 20px;
+    }
+    /* Section-4 */
+    .section-4 {
+        padding: 30px;
+    }
+    .facts {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    .fact {
+        width: 150px;
+        height: 150px;
+        margin-top: 0px;
     }
 }
